@@ -28,7 +28,9 @@ function keyPressed() {
     }, 3000);
   }
 }
-
+function escaneia(){
+  timeWarpScan.start();
+}
 function getDisplayHeight() {
   return (width * capture.height) / capture.width;
 }
